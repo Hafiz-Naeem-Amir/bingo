@@ -1,0 +1,123 @@
+@extends('site.layout.app')
+@section('content')
+<section class="single-page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Blogs</h2>
+				<ol class="breadcrumb header-bradcrumb justify-content-center">
+					<li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Blogs</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="posts section">
+	<div class="container">
+		<div class="row">
+			<!-- /section title -->
+			<!-- single blog post -->
+			<article class="col-lg-4 col-md-6">
+				<div class="post-item">
+					<div class="media-wrapper">
+						<img loading="lazy" src="{{asset('site/images/blog/post-1.jpg')}}" alt="amazing caves coverimage" class="img-fluid">
+					</div>
+
+					<div class="content">
+						<h3><a href="single-post.html">Reasons to Smile</a></h3>
+						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+							moon officia aute, non skateboard dolor brunch.</p>
+						<a class="btn btn-main" href="single-post.html">Read more</a>
+					</div>
+				</div>
+			</article>
+			<!-- /single blog post -->
+
+			<!-- single blog post -->
+			<article class="col-lg-4 col-md-6">
+				<div class="post-item">
+					<div class="media-wrapper">
+						<img loading="lazy" src="{{asset('site/images/blog/post-2.jpg')}}" alt="amazing caves coverimage" class="img-fluid">
+					</div>
+
+					<div class="content">
+						<h3><a href="single-post.html">A Few Moments</a></h3>
+						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+							moon officia aute, non skateboard dolor brunch.</p>
+						<a class="btn btn-main" href="single-post.html">Read more</a>
+					</div>
+				</div>
+			</article>
+			<!-- end single blog post -->
+
+			<!-- single blog post -->
+			<article class="col-lg-4 col-md-6">
+				<div class="post-item">
+					<div class="media-wrapper">
+						<img loading="lazy" src="{{asset('site/images/blog/post-3.jpg')}}" alt="amazing caves coverimage" class="img-fluid">
+					</div>
+
+					<div class="content">
+						<h3><a href="single-post.html">Hints for Life</a></h3>
+						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+							moon officia aute, non skateboard dolor brunch.</p>
+						<a class="btn btn-main" href="single-post.html">Read more</a>
+					</div>
+				</div>
+			</article>
+			<!-- /section title -->
+			<!-- single blog post -->
+			<article class="col-lg-4 col-md-6">
+				<div class="post-item">
+					<div class="media-wrapper">
+						<img loading="lazy" src="{{asset('site/images/blog/post-4.jpg')}}" alt="amazing caves coverimage" class="img-fluid">
+					</div>
+
+					<div class="content">
+						<h3><a href="single-post.html">Looking Back</a></h3>
+						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+							moon officia aute, non skateboard dolor brunch.</p>
+						<a class="btn btn-main" href="single-post.html">Read more</a>
+					</div>
+				</div>
+			</article>
+			<!-- /single blog post -->
+
+			<!-- single blog post -->
+			<article class="col-lg-4 col-md-6">
+				<div class="post-item">
+					<div class="media-wrapper">
+						<img loading="lazy" src="{{asset('site/images/blog/post-5.jpg')}}" alt="amazing caves coverimage" class="img-fluid">
+					</div>
+
+					<div class="content">
+						<h3><a href="single-post.html">Laugh and Cry</a></h3>
+						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+							moon officia aute, non skateboard dolor brunch.</p>
+						<a class="btn btn-main" href="single-post.html">Read more</a>
+					</div>
+				</div>
+			</article>
+			<!-- end single blog post -->
+
+			<!-- single blog post -->
+			<article class="col-lg-4 col-md-6">
+				<div class="post-item">
+					<div class="media-wrapper">
+						<img loading="lazy" src="{{asset('site/images/blog/post-6.jpg')}}" alt="amazing caves coverimage" class="img-fluid">
+					</div>
+
+					<div class="content">
+						<h3><a href="single-post.html">Regret No More</a></h3>
+						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+							moon officia aute, non skateboard dolor brunch.</p>
+						<a class="btn btn-main" href="single-post.html">Read more</a>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+@endsection
